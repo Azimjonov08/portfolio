@@ -1,0 +1,100 @@
+.hero {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 0 250px;
+
+    .box {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid white;
+        background: linear-gradient(150deg, rgba(131, 58, 180, 1) 2%, rgba(253, 29, 29, 1) 98%);
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+
+        img {
+            object-fit: cover;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        color: white;
+        display: flex;
+        align-items: center;
+        width: 500px;
+        font-size: 35px;
+        font-weight: 700;
+        gap: 10px;
+
+        // .d {
+        //     color: white;
+        // }
+
+        .p {
+            background: linear-gradient(150deg, rgba(131, 58, 180, 1) 5%, rgba(253, 29, 29, 1) 50%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+        .hero {
+            margin-bottom: 50px;
+            margin-top: 50px;
+            gap: 10px;
+
+            .box {
+                width: 90%;
+                height: 100px;
+                border: 2px solid white;
+                border-radius: 50%;
+                background: linear-gradient(150deg, rgba(131, 58, 180, 1) 2%, rgba(253, 29, 29, 1) 98%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .hero-text {
+            align-items: center;
+        }
+
+        img {
+            width: 70%;
+            object-fit: cover;
+            display: inline;
+        }
+
+        .text {
+            width: 80%;
+            flex-direction: column;
+            font-size: 25px
+        }
+
+        .title {
+            width: 80% !important;
+            font-size: 25px;
+            font-weight: 700;
+            color: white;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .title {
+            font-size: 25px;
+        }
+
+        .text {
+            font-size: 22px;
+        }
+    }
+}

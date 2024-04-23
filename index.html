@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./public/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammadamin</title>
+
+  <style>
+    #canv {
+      position: fixed;
+      height: 100%;
+      top: 0;
+      z-index: 1 !important;
+    }
+
+    #root {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body style="color: black;">
+  <div id="root">
+
+  </div>
+  <canvas id='canv'></canvas>
+
+
+  <script src="./bg-animation.js"></script>
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+
+</html>

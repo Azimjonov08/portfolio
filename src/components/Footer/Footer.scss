@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 18px;
+        }
+
+
+    }
+
+    .box-link {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+
+        @media screen and (max-width: 768px) {
+            align-items: flex-start;
+            gap: 5px;
+
+        img  {
+           width: 25px;
+           height: 25px; 
+        }
+
+            a {
+                margin-top: 5px;
+            }
+        }
+    }
+
+
+}

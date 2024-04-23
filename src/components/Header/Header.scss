@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+
+    .nav-right {
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 35px;
+            color: #fff;
+        }
+
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    @media screen and (max-width: 350px) {
+        img {
+            width: 75px;
+            height: 55px;
+        }
+
+        .nav-right {
+            margin-top: 10px; // Taxt qatorlari orasida bo'shliq qo'shish uchun
+
+            ul {
+                gap: 10px;
+            }
+        }
+    }
+}
