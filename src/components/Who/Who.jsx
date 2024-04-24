@@ -7,7 +7,7 @@ function Who() {
             <section className="container who">
                 <div className="right">
                     <h3>Who I'm ? </h3>
-                    <p>I'm Muhammadamin Azimjonov</p>
+                    <p className="subtitle">I'm Muhammadamin Azimjonov</p>
                 </div>
                 <div className="left">
                     <p>

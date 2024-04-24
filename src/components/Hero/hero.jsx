@@ -11,9 +11,8 @@ function Hero() {
                     <p className="d">Hey, I'm</p>
                     <p className="p">Muhammadamin</p>
                 </div>
-                <div className="title">
-                    I'm a Frontend
-                    Developer
+                <div className="subtitle">
+                    <p>I'm a Frontend Developer </p>
                 </div>
             </div>
         </section>

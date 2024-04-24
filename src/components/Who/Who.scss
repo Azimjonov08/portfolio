@@ -12,10 +12,13 @@
             margin-bottom: 5px;
         }
 
-        p {
-            font-size: 28px;
-            color: #ffffffcd;
+        .subtitle {
+            font-size: 30px;
+            color: #fff;
         }
+
+      
+
     }
 
     .left {
@@ -49,25 +52,26 @@
             margin-left: 10%;
 
             h3 {
-                font-size: 28px;
-                width: 100%;
-            }
-
-            p {
                 font-size: 22px;
                 width: 100%;
             }
 
-
+            .subtitle {
+                font-size: 20px;
+            }
         }
 
         .left {
             margin-left: 10%;
 
             p {
-                font-size: 18px;
+                font-size: 14px;
                 width: 50%;
                 max-width: 1;
+            }
+
+            a {
+                font-size: 15px;
             }
         }
 

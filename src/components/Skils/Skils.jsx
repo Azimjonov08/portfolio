@@ -12,18 +12,18 @@ function Skils() {
             <section className="container skils">
                 <div className="right">
                     <h3>My Programming Skills</h3>
-                    <p>I`m Frontend Devolper</p>
+                    <p className="subtitle">I`m Frontend Devolper</p>
                 </div>
 
                 <div className="left">
-                    <IoLogoHtml5 className="html"/>
-                    <DiCss3 className="css"/>
-                    <FaBootstrap className="boot"/>
-                    <IoLogoJavascript className="js"/>
-                    <SiTailwindcss className="css"/>
-                    <SiSass className="sass"/>
-                    <SiMui className="mui"/>
-                    <FaReact className="react" />
+                    <IoLogoHtml5 className="html size"/>
+                    <DiCss3 className="css size"/>
+                    <FaBootstrap className="boot size"/>
+                    <IoLogoJavascript className="js size"/>
+                    <SiTailwindcss className="css size"/>
+                    <SiSass className="sass size"/>
+                    <SiMui className="mui size"/>
+                    <FaReact className="react size" />
                 </div>
             </section>
         </>

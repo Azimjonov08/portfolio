@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import "./Work.scss"
-import { useState,useEffect } from "react"
+import { useState, useEffect } from "react"
 import Adidas from "../../assets/adidas.png"
 import Cpick from "../../assets/cpick.png"
 import Mini from "../../assets/mini.png"
@@ -20,8 +20,8 @@ function Work() {
 
     return (
         <>
+            <Header />
             <section className="work ">
-                <Header />
                 <div className="container">
                     <h2 className="title">
                         Portfolio
@@ -44,8 +44,8 @@ function Work() {
                         })}
                     </div>
                 </div>
-                <Footer />
             </section>
+            <Footer />
         </>
     )
 }
