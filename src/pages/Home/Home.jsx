@@ -8,6 +8,7 @@ import Skils from "../../components/Skils/Skils"
 function Home() {
   return (
     <>
+
       <Header />
       <Hero />
       <Who />

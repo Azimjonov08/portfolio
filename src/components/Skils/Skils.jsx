@@ -10,12 +10,12 @@ function Skils() {
     return (
         <>
             <section className="container skils">
-                <div className="right">
+                <div className="right" data-aos="flip-left" data-aos-duration="1500">
                     <h3>My Programming Skills</h3>
                     <p className="subtitle">I`m Frontend Devolper</p>
                 </div>
 
-                <div className="left">
+                <div className="left" data-aos="flip-right" data-aos-duration="1500">
                     <IoLogoHtml5 className="html size"/>
                     <DiCss3 className="css size"/>
                     <FaBootstrap className="boot size"/>
