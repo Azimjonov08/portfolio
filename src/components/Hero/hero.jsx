@@ -7,13 +7,7 @@ function Hero() {
                 <img src={HeroImg} alt="" width={250} height={250} />
             </div>
             <div className="text">
-                <div className="title">
-                    <p className="d">Hey, I'm</p>
-                    <p className="p">Muhammadamin</p>
-                </div>
-                <div className="subtitle">
-                    <p>I'm a Frontend Developer </p>
-                </div>
+                <h3>Hey, I'm <span> Muhammadamin</span> I'm a Frontend Developer </h3>
             </div>
         </section>
     )

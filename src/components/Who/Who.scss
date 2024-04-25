@@ -17,7 +17,7 @@
             color: #fff;
         }
 
-      
+
 
     }
 
@@ -40,41 +40,44 @@
     }
 
 
-    @media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .who {
         gap: 20px;
         flex-direction: column;
         flex-wrap: wrap;
         margin-bottom: 50px;
-
-
+    
         .right {
 
-            margin-left: 10%;
-
+    
             h3 {
                 font-size: 22px;
                 width: 100%;
             }
-
+    
             .subtitle {
                 font-size: 20px;
             }
         }
-
+    
         .left {
-            margin-left: 10%;
-
-            p {
-                font-size: 14px;
-                width: 245px    ;
-            }
-
+            width: 100%;        
             a {
                 font-size: 15px;
             }
         }
-
-
+    
+        .text {
+            font-size: 14px;
+            width: 100%;
+        }
+    
     }
+
+
 
 }

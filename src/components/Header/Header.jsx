@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header className="container">
-        <div className="boxx">
+        <div className="boxx" data-aos="fade-down">
           <NavLink to={`/`} className="nav-link">
             <img className="logo" src={Logo} alt="" width={95} height={65} />
           </NavLink>

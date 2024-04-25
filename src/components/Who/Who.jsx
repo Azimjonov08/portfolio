@@ -10,7 +10,7 @@ function Who() {
                     <p className="subtitle">I'm Muhammadamin Azimjonov</p>
                 </div>
                 <div className="left">
-                    <p>
+                    <p className="text">
                         Hello there 👋. I am a frontend developer and on this site I share interesting things about my life, technology and career. This program is my personal portfolio
                     </p>
                     <NavLink className="nav-link" to={`/about`} >
