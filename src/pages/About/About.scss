@@ -27,12 +27,17 @@
         margin-bottom: 50px;
     }
 
-    @media screen and (max-width: 768px) {
-        .about {
-            .box {
-                padding-left: 10px;
-            }
 
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        .box {
+            text-align: left;
+            padding-left: 0;
+            margin-left: 0;
         }
 
         .title {
@@ -49,18 +54,19 @@
         .p {
             margin-bottom: 20px;
         }
+
     }
+}
 
-    @media screen and (max-width: 480px) {
-        .about {
-            .title {
-                font-size: 25px;
-            }
+@media screen and (max-width: 480px) {
+    .about {
+        .title {
+            font-size: 25px;
+        }
 
-            p {
-                font-size: 14px;
-                margin-bottom: 5px;
-            }
+        p {
+            font-size: 14px;
+            margin-bottom: 5px;
         }
     }
 }
